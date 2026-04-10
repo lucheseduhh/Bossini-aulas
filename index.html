@@ -1,65 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h2>INSERT INTO task_db</h2>
-    <div class = "banner">
-        ATENÇÃO: Sistema ALPHA - PID 40221
-        
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 border">
+          12 colunas
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 border">
+          2 colunas
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 border">
+          sm: 12, md: 6
+        </div>
+        <div class="col-sm-12 col-md-6 border">
+          sm: 12, md: 6
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-5 border">
+          sm: 12, md: 4, lg: 5
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-5 border">
+          sm: 12, md: 4, lg: 5
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2 border">
+          sm: 12, md: 4, lg: 2
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col border mt-2">
+          largura igual
+        </div>
+        <div class="col border mt-2">
+          largura igual
+        </div>
+        <div class="col border mt-2">
+          largura igual
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col md border mt-2">
+            md
+        </div>
+        <div class="col md border mt-2">
+            md
+        </div>
+        <div class="col md border mt-2">
+            md
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 border mt-2 border-2">
+          sou a 1
+        </div>
+      
+        <div class="col-4 border mt-2 border-3">
+          sou a 2
+        </div>
+      
+        <div class="col-4 border mt-2 border-1">
+          sou a 3
+        </div>
+      </div>
+
+    <div class="container bg-primary text-white mt-3">
+      Duda
     </div>
-    <input type="text">
-    <p class ="erro">
-        ERR_0X003F:
-        VALIDATION_CONSTRAINT_FAIL
-        
-    </p>
-    <button class="btn-commit">
-        COMMIT</button>
-    <a href="#" class="link-rollback">
-        ROLLBACK
-    </a>
-    <p class="contator">Cliques registrados: 42</p>
-    <!-- nenhum feedback sobre clicar no COMMIT -->
-     <!-- sem atalho de teclado -->
-      <!-- sem explicações sobre o funcionamento -->
-       <ul>
-        <li>
-            <div>
-                <b>Comprar leite</b><br>
-                <span class="meta">
-                    ID:173899 | Hash: n3f2c9
-                </span>
-            </div>
-            <button class="btn-drop">
-                DROP
-            </button>
-        </li>
-        <li> <div>
-                <b>(null)</b><br>
-                <span class="meta">
-                    ID: 173900 | Hash: 7be4d1
-                </span>
-             </div>
-             <button class="btn-drop">
-                DROP
-             </button>
-        </li>
-        <li>
-            <div>
-                <b>Estudar para prova</b><br>
-                <span class="meta">
-                    ID: 173901 | Hash: e9cla7
-                </span>
-            </div>
-            <button class="btn-drop">
-                DROP
-            </button>
-        </li>     
-       </ul>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
